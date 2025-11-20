@@ -1,0 +1,52 @@
+/***
+COLORS
+https://coolors.co/143d75-487abd-c8e848-a6bc09
+DAD7CD : Light gray
+A3B18A : Light sage
+588157 : Regular fern
+3A5A40 : Medium hunter
+344E41 : Dark pine
+***/
+
+/***************/
+/*****FONTS*****/
+/***************/
+body, p, div{
+    font-family: "Stack Sans Text";
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Rubik" !important;
+}
+
+/******NAV BAR******/
+.header.header-boxed.header-color-dark .container {
+    background: #588157;
+}
+
+/*****Carousel Card*****/
+.bg-dark-07 {
+    background: rgba(88, 129, 87, 0.863);
+    border: 1px solid #dad7cd7e;
+}
+.bg-dark-content, .bg-black, [class*='bg-dark'], [class*='bg-gradient-'], [class*='bg-color-'] {
+    color: white;
+}
+.h5, h5 {
+    font-size: 1.80rem;
+    text-shadow: #588157 1px 1px 1px;
+}
+
+.display-4.text-white.text-center.mb-5 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 2px #DAD7CD;
+    margin-bottom: 3rem !important;
+    animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(25px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
