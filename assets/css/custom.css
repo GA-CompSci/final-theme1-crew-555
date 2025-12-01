@@ -49,4 +49,15 @@ h1, h2, h3, h4, h5, h6 {
     0% { opacity: 0; transform: translateY(25px); }
     100% { opacity: 1; transform: translateY(0); }
 }
+.theme-color-spring-red .button-text-theme.button-text-1, .theme-color-spring-red .button-text-theme.button-text-2, .theme-color-spring-red .button-text-theme.button-text-3 {
+    color: #344E41;
+}
 
+.theme-color-spring-red .text-color-theme {
+    color: #344E41;
+}
+.button-circle.button-circle-dark {
+    background: #3A5A40;
+    border: 0;
+    color: white;
+}
