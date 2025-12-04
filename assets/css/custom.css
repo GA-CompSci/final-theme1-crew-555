@@ -61,3 +61,21 @@ h1, h2, h3, h4, h5, h6 {
     border: 0;
     color: white;
 }
+
+.meeting-section> h2 {
+    letter-spacing: 0.9px;
+    line-height: 1.9;
+    color: #3A5A40;
+    font-weight: 600;
+    font-size: 50px;
+    background-color:#DAD7CD;
+    border-radius: 5px;
+}
+
+.meeting {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 30px;
+  color: white;
+  background-color: #588157;
+}
