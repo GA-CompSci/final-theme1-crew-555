@@ -73,9 +73,60 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .meeting {
-  padding: 10px;
+  padding: 4px;
   border-radius: 5px;
   font-size: 30px;
   color: white;
   background-color: #588157;
 }
+
+button[type="button-new"] {
+    background-color: blue;
+    color: white;
+    background: linear-gradient(#3A5A40, #588157); 
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    position: absolute;   /* or use fixed for viewport */
+    top: 85%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Hover effect */
+button[type="button-new"]:hover{
+color:#3A5A40;
+background: linear-gradient(#8ea28c, #DAD7CD);
+}
+
+.theme-color-spring-red a:not([class^='button']):not([class^="link-social"]):not(.header-logo a):hover {
+    color: #588157;
+}
+
+.section.bg-dark {
+color: #344E41;
+background: #DAD7CD !important;
+border-radius: 4px;
+}
+
+.section.bg-dark h3{
+    color: #344E41;
+}
+
+.section.bg-dark h5{
+    color: #344E41;
+}
+
+.section.bg-dark h1{
+  font-size: 48px;
+  background: linear-gradient(90deg, #344E41, #588157, #8ea28c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
