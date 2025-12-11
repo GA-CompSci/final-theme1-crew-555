@@ -116,7 +116,7 @@ border-radius: 4px;
 }
 
 .section.bg-dark h3{
-    color: #344E41;
+    color: #588157;
 }
 
 .section.bg-dark h5{
@@ -125,8 +125,16 @@ border-radius: 4px;
 
 .section.bg-dark h1{
   font-size: 48px;
-  background: linear-gradient(90deg, #344E41, #588157, #8ea28c);
+  background: #344E41;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+.bg-dark-content h3, .bg-black h3, [class*='bg-dark'] h3, [class*='bg-gradient-'] h3, [class*='bg-color-'] h3{
+    color: white;
+}
+
+.bg-dark-04 {
+    background: #dad7cdab;
+    text-align: center;
+}
