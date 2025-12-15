@@ -138,3 +138,22 @@ border-radius: 4px;
     background: #dad7cdab;
     text-align: center;
 }
+
+.bg-dark-06 {
+    background: #344E41;
+}
+
+.bg-dark-content h1, .bg-black h1, [class*='bg-dark'] h1{
+    color:white;
+    text-shadow: #8ea28c 3px 3px 3px;
+    padding-top: 5%;
+    font-size: 55px;
+}
+
+.theme-color-spring-red .progress-box.progress-theme .animated-progress div {
+    background: #8ea28c;
+}
+
+.theme-color-spring-red .button-theme {
+    background: #588157;
+}
